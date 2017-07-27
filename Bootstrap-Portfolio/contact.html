@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Porfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gregs Bootstrap Stuff">
+    <meta name="author" content="Greg Knight">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><h1>Greg Knight</h1></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./Portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+        <div class="col-sm-12 col-md-8 main-section panel">
+            <h2>Contact</h2>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="usr">Name:</label>
+                    <input type="text" class="form-control" id="usr" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" class="form-control" id="email" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="10" id="comment"></textarea>
+                </div>
+                <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <aside class="aside">
+                        <h2 class="aside-h2">Connect with Me</h2>
+                        <hr class="hr">
+                        <div class="aside-icons">
+                            <a href="https://github.com/vGknight" target="_blank"> 
+                                                <img class="aside-icons" src="./assets/images/github.png" alt="Github"></a>
+                            <a href="https://www.linkedin.com/in/vgknight/" target="_blank">
+                                                <img class="aside-icons" src="./assets/images/linkedin.png" alt="linkedin"></a>
+                            <a href="https://stackoverflow.com/users/8277141/vgknight" target="_blank">
+                                                <img class="aside-icons" src="./assets/images/stackoverflow.png" alt="stackoverflow"></a>
+                    </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <footer class="footer">&#9400;2017 GLK Enterprises</footer>
+    </footer>
+</body>
+
+</html>

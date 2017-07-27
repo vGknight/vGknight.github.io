@@ -1,0 +1,97 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("../images/backround.png") !important;
+    /*height: 100%;*/
+    margin-bottom: 60px;
+    /*sticky footer push to bottom*/
+}
+
+h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+p {
+    float: left;
+}
+
+.my-photo {
+    margin: 10px 15px 10px 20px;
+}
+
+
+.col-md-8 {
+    background-color: white;
+    overflow: auto;
+    border: 1px solid #ddd;
+}
+
+.navish {
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+}
+
+.aside {
+    text-align: center;
+}
+
+.nav,
+.navbar-nav {
+    float: right;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    color: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    clear: both;
+}
+
+.panel-default {
+    max-height: 200px;
+    width: 100%
+}
+
+.panel-body {
+    max-height: initial;
+    overflow: auto;
+}
+
+.main-section {
+    color: #777777;
+}
+
+.aside-h2,
+.panel-body {
+    text-align: center;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+    font-size: 24px;
+}
+
+.navbar-brand,
+.navbar-header {
+    background-color: #4aaaa5;
+    color: white !important;
+    height: inherit;
+}
+
+
+.btn-primary {
+    background-color: #4aaaa5;
+}
+
+.row {
+    margin: 0;
+}
