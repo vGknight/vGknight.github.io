@@ -30,9 +30,9 @@ var winCount = 0;
 
 //sound effects
 var beginFightSnd = document.createElement("audio");
-beginFightSnd.setAttribute("src", "assets/audio/begin_fight.mp3");
+beginFightSnd.setAttribute("src", "./assets/audio/begin_fight.mp3");
 var introSound = document.createElement("audio");
-introSound.setAttribute("src", "assets/audio/intro.mp3");
+introSound.setAttribute("src", "./assets/audio/intro.mp3");
 
 // set up fight
 
